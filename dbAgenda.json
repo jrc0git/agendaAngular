@@ -1,0 +1,10 @@
+{
+    "pacientes": [
+        {
+            "nombre": "Javi",
+            "apellidos": "Rios Cerdan",
+            "edad": 26,
+            "sesiones": []
+        }
+    ]
+}
