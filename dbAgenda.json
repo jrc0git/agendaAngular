@@ -1,6 +1,35 @@
 {
     "pacientes": [
         {
+            "id":1,
+            "nombre": "Javi",
+            "apellidos": "Rios Cerdan",
+            "edad": 26,
+            "sesiones": []
+        },
+        {
+            "id":2,
+            "nombre": "Javi",
+            "apellidos": "Rios Cerdan",
+            "edad": 26,
+            "sesiones": []
+        },
+        {
+            "id":3,
+            "nombre": "Javi",
+            "apellidos": "Rios Cerdan",
+            "edad": 26,
+            "sesiones": []
+        },
+        {
+            "id":4,
+            "nombre": "Javi",
+            "apellidos": "Rios Cerdan",
+            "edad": 26,
+            "sesiones": []
+        },
+        {
+            "id":5,
             "nombre": "Javi",
             "apellidos": "Rios Cerdan",
             "edad": 26,

@@ -1,7 +1,7 @@
 import { Sesion } from "./sesion";
 
 export class Pacientes {
-    id?:number;
+    id:number=0;
     nombre:string;
     apellidos:string;
     edad:number;

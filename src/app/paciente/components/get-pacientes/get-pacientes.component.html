@@ -1,0 +1,23 @@
+
+<div class="sesionesRecientes">
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Sesiones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of pacientes">
+            <th scope="row">{{item.nombre}}</th>
+            <td>{{item.apellidos}}</td>
+            <td>{{item.edad}}</td>
+            <td>{{item.sesiones.length}}</td>
+            <td><button (click)="openModal(item.id)">Editar</button></td>
+          </tr>
+          
+        </tbody>
+      </table>
+</div>

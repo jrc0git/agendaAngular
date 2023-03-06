@@ -4,7 +4,8 @@ import { DahsboardPacientesComponent } from './paciente/components/dahsboard-pac
 
 const routes: Routes = [
   {
-    path:"", component:DahsboardPacientesComponent
+    path:'',
+    loadChildren: ()=> import('./paciente/modulo-pacientes/modulo-pacientes.module').then(m=>m.ModuloPacientesModule)
   }
 ];
 
